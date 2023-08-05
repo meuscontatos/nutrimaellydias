@@ -17,9 +17,21 @@
             background: black url("img/screen-home.png") no-repeat top center;
             background-size: cover;
         }
+        
+         .video-thumbnail {
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        iframe {
+            display: none;
+        }
     </style>
 </head>
 <body>
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qoQky7gq2xA?autoplay=1&controls=0" frameborder="0" allowfullscreen></iframe> 
+    <a class="video-thumbnail" href="https://www.youtube.com/embed/qoQky7gq2xA?autoplay=1&controls=0" target="_blank">
+        <img src="img/screen-home.png" alt="Vídeo Thumbnail" width="100%" height="100%">
+    </a> 
 </body>
 </html>
