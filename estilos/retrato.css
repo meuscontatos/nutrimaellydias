@@ -24,9 +24,9 @@ main {
 
 section#celular {
     position: absolute;
-    top: 10%;
+    top: 13%;
     left: 42%;
-    transform: translate(-50%, -10%);
+    transform: translate(-50%, -13%);
 
     width: 298px;
     height: 608px;
@@ -49,7 +49,7 @@ section#redes {
     width: 370px;
     margin: auto;
     text-align: right;
-    padding-top: 110px;
+    padding-top: 90px;
 }
 
 section#redes img {
